@@ -174,8 +174,9 @@ export default function StakeFormUsdt({ contractAddress, onStakeSuccess }) {
             : "bg-yellow-600 hover:bg-yellow-700"
         }`}
       >
-        {isLoading ? "Processing..." : !isConnected ? "Connect Wallet" : "Stake BNB"}
+        {isLoading ? "Processing..." : !isConnected ? "Connect Wallet" : "Stake USDT"}
       </button>
     </div>
   );
 }
+
